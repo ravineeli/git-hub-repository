@@ -49,7 +49,7 @@ namespace git_hub_repository
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }
